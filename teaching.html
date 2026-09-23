@@ -26,59 +26,52 @@
       }
       .navbar-brand, .nav-link {
         color: white; /* White text color */
-        margin-right: 15px;
         text-decoration: none;
+        margin-right: 50px;
+        font-size: 21px;
       }
       .navbar-brand:hover, .nav-link:hover {
         color: #ddd; /* Lighter color on hover */
       }
+      
+/* On phones */
+@media (max-width: 768px) {
+  .nav-link {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+}
 
-      .container {
-        display: flex;
-        align-items: flex-start;
-        padding: 20px;
-      }
-      .container img {
-        width: 150px; /* Adjust the width as needed */
-        margin-right: 20px; /* Space between image and text */
-        float: left; /* Align image to the left */
-      }
-
-     
-      .page-content {
-        padding: 10px;
-      }
-
-
-      .card {
-        background-color: #f9f9f9;
-        padding: 15px;
-        border-radius: 5px;
-        margin-top: 15px;
-      }
+/* On computers */
+@media (min-width: 769px) {
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
     </style>
 
   </head>
 
   <body>
   
-    <!-- Top Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/talks.html">Conferences and seminars</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/teaching.html">Teaching</a>
-        </li>
-      </ul>
-    </nav>
+<!-- Top Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/publications.html">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/talks.html">Conferences and seminars</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/teaching.html">Teaching</a>
+    </li>
+  </ul>
+</nav>
           
           
           
