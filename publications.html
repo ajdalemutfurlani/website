@@ -49,10 +49,37 @@
     padding-bottom: 15px;
   }
 }
-  .page-content {
-        padding: 10px;
+      .container {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
       }
 
+      .page-content {
+        padding: 20px;
+      }
+
+      .card {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 15px;
+      }
+
+      .card-content {
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .card img {
+        width: 150px; /* Adjust the width as needed to make the image smaller */
+        margin-right: 20px; /* Space between image and text */
+        flex-shrink: 0; /* Prevent image from shrinking */
+      }
+
+      .card div {
+        flex: 1;
+      }
 
     </style>
 
