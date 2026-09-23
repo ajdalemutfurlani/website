@@ -31,10 +31,27 @@
         color: white; /* White text color */
         margin-right: 15px;
         text-decoration: none;
+        font-size: 25px;
       }
       .navbar-brand:hover, .nav-link:hover {
         color: #ddd; /* Lighter color on hover */
       }
+
+      /* On phones */
+@media (max-width: 768px) {
+  .nav-link {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+/* On computers */
+@media (min-width: 769px) {
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
 
       .container {
         display: flex;
@@ -73,23 +90,23 @@
 
   <body>
   
-    <!-- Top Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/talks.html">Conferences and seminars</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="https://ajdalemutfurlani.github.io/website/teaching.html">Teaching</a>
-        </li>
-      </ul>
-    </nav>
+<!-- Top Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/publications.html">Publications</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/talks.html">Conferences and seminars</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://ajdalemutfurlani.github.io/website/teaching.html">Teaching</a>
+    </li>
+  </ul>
+</nav>
           
     <!-- Page content -->
     <div class="page-content inset">     
